@@ -46,32 +46,25 @@ header {
 }
 
 header > h1 {
-    color: rgba(255, 255, 255, 0.945);
+    color: white;
     font-family: var(--fonte-destaque);
-    margin-bottom: 20px;
     font-size: 3em;
     font-weight: normal;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
 }
 
 
-/* Correção para o style.css */
+
 header > p {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 1.2em;
+    color: white;
     max-width: 600px;
     padding-right: 10px; 
     padding-left: 10px;
-    
-    /* 🎯 Correção: Define a margem como 0 para TOP e BOTTOM,
-       e auto para LEFT e RIGHT (para centralizar). 
-       Isto garante que a margem do p é zero */
-    margin: 0 auto; 
-    
-    /* Use padding para o espaço inferior desejado, em vez de margin */
+    margin: auto;
     padding-bottom: 50px;
-    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 }
 
