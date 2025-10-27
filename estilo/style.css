@@ -59,7 +59,7 @@ header > h1 {
 header > p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    color: white;
+    color: rgb(236, 5, 5);
     max-width: 600px;
     padding-right: 10px; 
     padding-left: 10px;
